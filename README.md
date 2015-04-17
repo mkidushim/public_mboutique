@@ -30,14 +30,14 @@ The below describes steps to open up the command line in on a OSX ([Mac](https:/
 	<br><img src="https://github.com/Learning-Fuze/git-workflow/blob/assets/assets/windows-git-bash-alt.jpg?raw=true" height="300">
 
 ### Step 3 - Cloning the repo
-1. Type in the following into your command line 
-	- `git clone https://github.com/your-user-name/git-workflow.git` and hit enter
+1. Type in the following into your command line
+	- `git clone https://github.com/your-user-name/mboutique.git` and hit enter
 		- **Note** The portion of the url that reads **your-user-name here** needs to change
 		- The **clone** command tells git to save the contents of the master branch onto your computer within the current directory.
 		- **Note**
 			- Using the command above will automatically create a directory with the same name as the Repo. In this example **git-workflow**
 			- The url after the word **clone** can be found in the right hand side panel of this page under the Settings link. You can click the button to the right of the url that will automatically copy this url for you
-2. Then type `cd git-workflow` and hit enter
+2. Then type `cd mboutique` and hit enter
 - Leave your console window open, we will be using it again shortly.
 
 #### Congratulations you have cloned your Github Repository
