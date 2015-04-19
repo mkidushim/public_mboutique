@@ -1,1 +1,197 @@
-/* Add your CSS here */
+/*---------Index||Header-------------------*/
+#header1 {
+background-color: #fffabe;
+padding:25px;
+margin:-10px -10px 0 -10px;
+height:72px;
+width:1000px;
+}
+#nav1 {
+	display: inline-block;
+	
+	float:right;
+}
+.nav {
+padding: 25px;
+text-decoration: none;
+margin-left: 15px;
+color:#515151;
+font-family: Arial, Helvetica, Sans-serif;
+	font-size:16px;
+	text-transform: uppercase;
+
+}
+
+.nav:hover {
+color:#d42551;
+
+}
+/*----------Index||Header-------------------*/
+/*---------Index||Body_Paragraphs_IMG's--------------*/
+#main_img {
+width:1000px;
+height: 400px;
+margin:10px;
+}
+#maininfo {
+	display: block;
+	width:1000px;
+	margin-right: -45px;
+
+}
+#macarons {
+margin:30px 10px 30px 0px;
+float:left;
+
+}
+.p_header {
+font-family: Arial, Helvetica, Sans-serif;
+color: #6a6969;
+font-size: 20px;
+
+}
+.p_info {
+font-family: Arial, Helvetica, Sans-serif;
+color:#6a6969;
+font-size:14px;
+
+
+
+}
+.p_info, .p_header {
+display: inline-block;
+width: 790px;
+margin-left: 10px;
+text-align: left;
+
+}
+#last_p {
+	margin-left:205px;
+}
+#flavor_header {
+margin-left: 204px;
+font-family: Arial, Helvetica, Sans-serif
+}
+/*---------Index||Paragraphs--------------*/
+/*--------Index||cookie_display-----------*/
+#cookie_disp {
+
+
+
+}
+.cookie-box {
+display: inline-block;
+height:140px;
+width:126px;
+margin:0px 4px 5px 2px;
+padding:5px;
+background-color: #fffabe;
+text-align: left;
+
+
+}
+.day {
+font-family: arial, Helvetica, Sans-serif;
+font-size: 14px;
+color:#6a6969;
+
+}
+.time {
+font-size: 12px;
+color: #6a6969;
+font-family: arial, Helvetica, Sans-serif;
+
+
+}
+
+#coconut {
+background-color: #824603;
+color:white;
+padding:5px 5px 15px 5px;
+margin: 0px -3px 0px -3px;
+
+}
+#vanilla {
+background-color: #df5277;
+color: white;
+padding:5px 5px 15px 5px;
+margin: 0 -3px 0px -3px;
+
+}
+#lemon {
+background-color: #a2304e;
+color: white;
+padding:5px 5px 15px 5px;
+margin: 0 -3px 0px -3px;
+
+}
+#almond {
+background-color: #c39005;
+color:white;
+padding:5px 5px 15px 5px;
+margin: 0 -3px 0px -3px;
+
+}
+.cookie_imgs {
+float:right;
+}
+
+/*------Index||cookie_display--*/
+
+/*------Index||Footer------*/
+
+
+#footer1 {
+	background-color: #df5277;
+	color: white;
+	width: 1000px;
+	height: 80px;
+	padding:5px 10px 15px 10px;
+	margin:50px 0px -5px -10px;
+}
+#phone {
+text-decoration-color: white;
+display: inline-block;
+text-align: center;
+margin: 15px 45px 15px 30px;
+}
+
+#email {
+text-decoration-color:white;
+display: inline-block;
+float:left;
+margin: 15px 75px 15px 65px;
+ 	} 
+
+#follow {
+
+display: inline-block;
+margin: 5px 85px 10px 25px;
+float: right;
+
+}
+#copyright {
+margin: 10px -10px 25px 10px;
+
+}
+
+.email_link {
+text-decoration: none;
+color:white;
+}
+.phone_link {
+text-decoration: none;
+color:white;
+}
+.social-media {
+display: inline-block;
+padding: 20px;
+margin-right: 15px;
+margin-top: -20px;
+}
+.social-imgs {
+margin:-15px 0px 0px 10px;
+
+
+}
+/*------Index||END------*/
