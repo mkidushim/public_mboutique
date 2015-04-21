@@ -1,6 +1,6 @@
 /*---------Index||Header-------------------*/
 
-#header1 {
+#header {
     background-color: #fffabe;
     padding: 25px;
     margin: -25px 0px 0 -10px;
@@ -13,13 +13,14 @@
     display: inline-block;
 }
 
-#nav1 {
+#nav {
     display: inline-block;
     margin: 10px 5px 10px 5px;
     float: right;
 }
 
 .nav {
+    text-decoration: none;
     list-style: none;
     color: #515151;
     font-family: Arial, Helvetica, Sans-serif;
@@ -150,37 +151,39 @@
 /*------Index||cookie_display--*/
 /*------Index||Footer------*/
 
-#footer1 {
+#footer {
     background-color: #df5277;
     color: white;
     width: 1000px;
     height: 80px;
-    padding: 5px 10px 15px 10px;
-    margin: 50px 0px -5px -10px;
+    padding: 5px 10px 20px 10px;
+    margin: 50px 0px -10px -10px;
 }
 
 #phone {
     text-decoration-color: white;
     display: inline-block;
     text-align: center;
-    margin: 7px 45px 15px 30px;
+    margin: 7px -5px 15px 30px;
 }
 
 #email {
     text-decoration-color: white;
     display: inline-block;
     float: left;
-    margin: 5px 75px 15px 65px;
+    margin: 5px 65px 15px 75px;
 }
 
 #follow {
     display: inline-block;
-    margin: 5px 85px 10px 25px;
+    margin: 5px 75px 10px 25px;
     float: right;
 }
 
 #copyright {
-    margin: 10px -10px 25px 10px;
+    margin: 10px 0px 25px 10px;
+    font-size: 11px;
+    font-family: arial, Helvetica, Sans-serif;
 }
 
 .email_link {
@@ -196,7 +199,7 @@
 .social-media {
     display: inline-block;
     padding: 20px;
-    margin-right: 15px;
+    margin-right: 35px;
     margin-top: -20px;
 }
 
@@ -204,3 +207,49 @@
     margin: -15px 0px 0px 10px;
 }
 /*------Index||END------*/
+/*------Our-Macarons||CSS------*/
+
+#main_img2 {
+    width: 1000px;
+    height: 400px;
+}
+
+#main_info2 {
+    width: 1000px;
+}
+
+.p_header2 {
+    font-size: 20px;
+    font-family: arial, Helvetica, Sans-serif;
+    color: #6a6969;
+    text-align: left;
+}
+
+.p_header2.classic {
+    margin-bottom: -100px;
+}
+
+.p_info2 {
+    font-size: 14px;
+    font-family: arial, Helvetica, Sans-serif;
+    color: #6a6969;
+    text-align: left;
+    line-height: 1.5em;
+    padding: 5px 15px 5px 5px;
+    margin: 5px 15px 5px 0px;
+}
+
+#classics {
+    font-size: 14px;
+    font-family: arial, Helvetica, Sans-serif;
+    color: #6a6969;
+    display: inline-block;
+    margin-top: -50px;
+}
+
+#macarons_background_img {
+    display: inline-block;
+    height: 400px;
+    width: 600px;
+    margin: 25px 0px -70px 0px;
+}
