@@ -2,10 +2,10 @@
 
 #header {
     background-color: #fffabe;
-    padding: 25px;
+    padding: 20px;
     margin: -25px 0px 0 -10px;
     height: 72px;
-    width: 1000px;
+    width: 980px;
 }
 
 #head_logo {
@@ -15,7 +15,7 @@
 
 #nav {
     display: inline-block;
-    margin: 10px 5px 10px 5px;
+    margin: 5px 10px 5px 10px;
     float: right;
 }
 
@@ -252,4 +252,146 @@
     height: 400px;
     width: 600px;
     margin: 25px 0px -70px 0px;
+}
+/*------our_macarons_Done------*/
+/*-------gifts&parties---------*/
+
+#main_info3 {
+    margin-left: 45px;
+    width: 1000px;
+    background-image: url(assets/images/gifts-parties-background.png);
+    background-repeat: no-repeat;
+    background-position: 25% 85%;
+}
+
+.p_head3 {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    font-family: arial, Helvetica, Sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+
+.p_info3 {
+    font-family: arial, Helvetica, Sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    color: #6a6969;
+}
+
+.p_info3.bottom {
+    margin-right: 500px;
+}
+/*------Finish gifts&parties-----*/
+/*-------Start Contact page----*/
+
+#map_img {
+    height: 400px;
+    width: 1000px;
+    margin-bottom: 70px;
+}
+
+.p_head4 {
+    font-size: 20px;
+    font-family: arial, Helvetica, Sans-serif;
+    color: #6a6969;
+}
+
+.p_head4.main {
+    margin: 50px 0px 10px -5px;
+}
+
+.p_info4 {
+    line-height: 1.5em;
+    font-size: 14px;
+    font-family: arial, Helvetica, Sans-serif;
+    color: #6a6969;
+}
+
+.p_info4.adress {
+    margin-top: 5px;
+}
+
+.p_info4.phone {
+    margin-bottom: 10px;
+}
+
+#order {
+    margin-bottom: 10px;
+    color: #df5277;
+}
+
+.p_info4.word_space {
+    word-spacing: 1em;
+}
+
+.main_info4.left {
+    display: inline-block;
+    width: 300px;
+    padding: 10px;
+    margin: 0px 25px 120px 5px;
+}
+
+.main_info4.right {
+    margin: 0px 0px 0px 55px;
+    padding: 10px;
+    display: inline-block;
+}
+
+.form {
+    font-size: 14px;
+    font-family: arial, Helvetica, Sans-serif;
+    background-color: #f5f5f5;
+    display: block;
+}
+
+.form.message {
+    font-size: 14px;
+    font-family: arial, Helvetica, Sans-serif;
+    background-color: #f5f5f5;
+    display: block;
+}
+
+.input {
+    height: 35px;
+    width: 310px;
+    margin: 5px 0px 5px -45px;
+    opacity: .5;
+}
+
+.input.phone {
+    height: 35px;
+    width: 310px;
+    margin: 5px 0px 5px -50px;
+    opacity: .5;
+}
+
+.subject {
+    width: 310px;
+    height: 35px;
+    margin: 5px 0px 0px -55px;
+    padding-bottom: 10px;
+    opacity: .5;
+    background-color: #f5f5f5;
+}
+
+.message {
+    width: 310px;
+    height: 70px;
+    margin: 5px 0px 0px -2px;
+    opacity: .5;
+    background-color: #f5f5f5;
+}
+
+#btn4 {
+    height: 35px;
+    width: 155px;
+    background-color: #f5f5f5;
+    margin: 45px 0px 0px 160px;
+}
+
+.order_img {
+    margin: -20px -5px 50px 15px;
+    width: 200px;
+    height: 250px;
 }
