@@ -2,9 +2,9 @@
 
 #header {
     background-color: #fffabe;
-    padding: 20px;
-    margin: -25px 0px 0 -10px;
-    height: 72px;
+    padding: 10px;
+    margin: -7px auto 0px auto;
+    height: 52px;
     width: 980px;
 }
 
@@ -15,7 +15,8 @@
 
 #nav {
     display: inline-block;
-    float: right;
+    margin: -15px -10px 0px 55px;
+    padding: 15px 0px 0px 0px;
 }
 
 .nav {
@@ -35,21 +36,22 @@
 /*----------Index||Header-------------------*/
 /*---------Index||Body_Paragraphs_IMG's--------------*/
 
-#main_img {
+#center-all {
     width: 1000px;
-    height: 400px;
-    margin: 10px;
+    margin: 15px auto 0px auto;
 }
 
-#maininfo {
+#main_info {
     display: block;
-    width: 1000px;
-    margin-right: -45px;
+    margin: -200px 0px 0px 240px;
 }
 
-#macarons {
-    margin: 30px 10px 30px 0px;
-    float: left;
+#macaron_img {
+    display: inline-block;
+    width: 230px;
+    height: 270px;
+    padding-top: 25px;
+    padding-left: 20px;
 }
 
 .p_header {
@@ -67,27 +69,29 @@
 .p_info,
 .p_header {
     display: inline-block;
-    width: 790px;
+    width: 650px;
+    line-height: 1.5em;
     margin-left: 10px;
     text-align: left;
 }
 
-#last_p {
-    margin-left: 205px;
-}
+#last_p {}
 
 #flavor_header {
-    margin-left: 204px;
     font-family: Arial, Helvetica, Sans-serif
 }
 /*---------Index||Paragraphs--------------*/
 /*--------Index||cookie_display-----------*/
 
+#cookie_disp {
+    margin: 10px auto 0px auto;
+}
+
 .cookie-box {
     display: inline-block;
     height: 140px;
     width: 120px;
-    margin: 0px 4px 5px 2px;
+    margin: 5px 5px 0px 5px;
     padding: 0px 3px 0px 3px;
     background-color: #fffabe;
     text-align: left;
@@ -156,7 +160,7 @@
     width: 1000px;
     height: 80px;
     padding: 5px 10px 20px 10px;
-    margin: 50px 0px -10px -10px;
+    margin: 25px auto 0px auto;
 }
 
 #phone {
@@ -188,11 +192,13 @@
 .email_link {
     text-decoration: none;
     color: white;
+    padding-left: 15px;
 }
 
 .phone_link {
     text-decoration: none;
     color: white;
+    padding-left: 15px;
 }
 
 .social-media {
@@ -204,6 +210,7 @@
 
 .social-imgs {
     margin: -15px 0px 0px 10px;
+    padding-left: 15px;
 }
 /*------Index||END------*/
 /*------Our-Macarons||CSS------*/
@@ -211,10 +218,12 @@
 #main_img2 {
     width: 1000px;
     height: 400px;
+    margin: 0px 4% 0px 12%;
 }
 
 #main_info2 {
     width: 1000px;
+    margin: 0px 4% 0px 12%;
 }
 
 .p_header2 {
@@ -256,11 +265,15 @@
 /*-------gifts&parties---------*/
 
 #main_info3 {
-    margin-left: 45px;
+    margin: 0px auto;
     width: 1000px;
     background-image: url(assets/images/gifts-parties-background.png);
     background-repeat: no-repeat;
     background-position: 25% 85%;
+}
+
+#main_img3 {
+    margin: 0px 11% 0px 12%;
 }
 
 .p_head3 {
@@ -287,7 +300,12 @@
 #map_img {
     height: 400px;
     width: 1000px;
-    margin-bottom: 70px;
+    margin: 0px 11% 0px 12%;
+}
+
+#center-all4 {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .p_head4 {
@@ -397,7 +415,8 @@
 }
 
 .order_img {
-    margin: -20px -5px 50px 15px;
+    margin: 10px 0px 50px -25px;
+    padding-top: 10px;
     width: 200px;
-    height: 250px;
+    height: 230px;
 }
