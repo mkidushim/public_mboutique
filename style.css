@@ -15,8 +15,12 @@
 
 #nav {
     display: inline-block;
-    margin: -15px -10px 0px 55px;
-    padding: 15px 0px 0px 0px;
+    position: relative;
+    left: 5%;
+    top: -20%;
+    /*float: right;
+    margin: 0px 0px 0px 0px;
+    padding: 15px 20px 0px 0px;*/
 }
 
 .nav {
@@ -42,40 +46,36 @@
 }
 
 #main_info {
-    display: block;
-    margin: -200px 0px 0px 240px;
-}
-
-#macaron_img {
     display: inline-block;
-    width: 230px;
-    height: 270px;
-    padding-top: 25px;
-    padding-left: 20px;
+    position: relative;
+    right: -245px;
+    top: -215px;
+    height: 350px;
 }
 
-.p_header {
-    font-family: Arial, Helvetica, Sans-serif;
-    color: #6a6969;
-    font-size: 20px;
-}
-
-.p_info {
-    font-family: Arial, Helvetica, Sans-serif;
-    color: #6a6969;
-    font-size: 14px;
-}
-
-.p_info,
-.p_header {
+#macarons_img {
     display: inline-block;
-    width: 650px;
+    position: relative;
+    top: 120px;
+}
+
+.p {
+    display: inline-block;
+    width: 65%;
     line-height: 1.5em;
     margin-left: 10px;
     text-align: left;
+    font-family: Arial, Helvetica, Sans-serif;
+    color: #6a6969;
 }
 
-#last_p {}
+.p.header {
+    font-size: 20px;
+}
+
+.p.info {
+    font-size: 14px;
+}
 
 #flavor_header {
     font-family: Arial, Helvetica, Sans-serif
@@ -160,7 +160,7 @@
     width: 1000px;
     height: 80px;
     padding: 5px 10px 20px 10px;
-    margin: 25px auto 0px auto;
+    margin: 95px auto 0px auto;
 }
 
 #phone {
@@ -172,13 +172,11 @@
 
 #email {
     text-decoration-color: white;
-    display: inline-block;
     float: left;
     margin: 5px 65px 15px 75px;
 }
 
 #follow {
-    display: inline-block;
     margin: 5px 75px 10px 25px;
     float: right;
 }
