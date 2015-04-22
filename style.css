@@ -1,5 +1,10 @@
 /*---------Index||Header-------------------*/
 
+html {
+    font-family: arial, Helvetica, Sans-serif;
+    color: #6a6969;
+}
+
 #header {
     background-color: #fffabe;
     padding: 10px;
@@ -226,9 +231,11 @@
 
 .p_header2 {
     font-size: 20px;
-    font-family: arial, Helvetica, Sans-serif;
-    color: #6a6969;
     text-align: left;
+}
+
+.p_header2.top {
+    margin-top: 90px;
 }
 
 .p_header2.classic {
@@ -237,18 +244,13 @@
 
 .p_info2 {
     font-size: 14px;
-    font-family: arial, Helvetica, Sans-serif;
-    color: #6a6969;
     text-align: left;
     line-height: 1.5em;
-    padding: 5px 15px 5px 5px;
-    margin: 5px 15px 5px 0px;
+    padding: 20px 15px 35px 5px;
 }
 
 #classics {
     font-size: 14px;
-    font-family: arial, Helvetica, Sans-serif;
-    color: #6a6969;
     display: inline-block;
     margin-top: -50px;
 }
@@ -277,16 +279,12 @@
 .p_head3 {
     margin-top: 70px;
     margin-bottom: 50px;
-    font-family: arial, Helvetica, Sans-serif;
     font-size: 20px;
-    color: #6a6969;
 }
 
 .p_info3 {
-    font-family: arial, Helvetica, Sans-serif;
     font-size: 14px;
     line-height: 1.4em;
-    color: #6a6969;
 }
 
 .p_info3.bottom {
@@ -308,8 +306,6 @@
 
 .p_head4 {
     font-size: 20px;
-    font-family: arial, Helvetica, Sans-serif;
-    color: #6a6969;
 }
 
 .p_head4.main {
@@ -320,8 +316,6 @@
 .p_info4 {
     line-height: 1.5em;
     font-size: 14px;
-    font-family: arial, Helvetica, Sans-serif;
-    color: #6a6969;
     margin-top: -15px;
 }
 
@@ -357,14 +351,11 @@
 
 .form {
     font-size: 14px;
-    font-family: arial, Helvetica, Sans-serif;
-    background-color: #f5f5f5;
     display: block;
 }
 
 .form.message {
     font-size: 14px;
-    font-family: arial, Helvetica, Sans-serif;
     margin: 20px 0px -80px 0px;
 }
 
@@ -407,14 +398,15 @@
     height: 35px;
     width: 155px;
     background-color: #f5f5f5;
-    margin: 20px 0px 0px 190px;
+    position: relative;
+    left: 165px;
+    top: 15px;
     display: block;
     border: none;
 }
 
 .order_img {
-    margin: 10px 0px 50px -25px;
-    padding-top: 10px;
+    position: relative;
+    top: -50px;
     width: 200px;
-    height: 230px;
 }
