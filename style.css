@@ -209,8 +209,17 @@ html {
     padding: 20px;
     margin-right: 35px;
     margin-top: -20px;
+    
 }
-
+.social-media_c {
+    display: inline-block;
+    padding: 20px;
+    margin-right: 35px;
+    margin-top: -20px;
+    position: relative;
+  left: 100px;
+  bottom: 75px;
+}
 .social-imgs {
     margin: -15px 0px 0px 10px;
     padding-left: 15px;
@@ -296,7 +305,7 @@ html {
 #map_img {
     height: 400px;
     width: 1000px;
-    margin: 0px 11% 0px 12%;
+    margin-left: 26px;
 }
 
 #center-all4 {
